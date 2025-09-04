@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
-import 'package:task_manager/task_List_Notifier.dart';
-import 'package:task_manager/model.dart';
-import 'package:task_manager/theme.dart';
+import 'package:task_manager/state/task_List_Notifier.dart';
+import 'package:task_manager/model/model.dart';
+import 'package:task_manager/theme/theme.dart';
 
 void main() {
   runApp(const ProviderScope(child: TodoApp()));

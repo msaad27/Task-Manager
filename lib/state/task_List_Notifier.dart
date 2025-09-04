@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:uuid/uuid.dart';
-import 'package:task_manager/model.dart';
+import 'package:task_manager/model/model.dart';
 
 part 'task_List_Notifier.g.dart';
 
