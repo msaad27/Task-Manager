@@ -85,13 +85,22 @@ class _AddTaskButtonState extends State<_AddTaskButton> {
                   children: [
                     TextField(
                       controller: _titleController,
-                      decoration: const InputDecoration(labelText: 'Title'),
+                      decoration:  InputDecoration(
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        labelText: 'Title',
+                      ),
                     ),
-                    const SizedBox(height: 8),
+                    const SizedBox(height: 15),
                     TextField(
                       controller: _descController,
-                      decoration:
-                          const InputDecoration(labelText: 'Description'),
+                      decoration:  InputDecoration(
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        labelText: 'Description',
+                      ),
                     ),
                     const SizedBox(height: 12),
                     Row(
